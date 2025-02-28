@@ -36,16 +36,17 @@ import dynamoDBImage from '@images/skills/minitab.png';
 // TODO: change the names 
 // Define the SKILLS array with the image addresses and alt text
 export const SKILLS: Array<SkillsStructure> = [
-  { imageAddress: javaScriptImage, alt: 'IELTS 7' },
+  { imageAddress: pythonImage, alt: 'Python' },
+  { imageAddress: postgresqlImage, alt: 'Machine Learning' },
+  { imageAddress: fastAPIImage, alt: 'Statistics Partitioner' },
   { imageAddress: typescriptImage, alt: 'Excel' },
+  { imageAddress: expressJSImage, alt: 'SPSS' },
+  { imageAddress: javaScriptImage, alt: 'IELTS 7' },
   { imageAddress: nodeJSImage, alt: 'Word' },
   { imageAddress: mochaImage, alt: 'Power Point' },
-  { imageAddress: expressJSImage, alt: 'SPSS' },
-  { imageAddress: pythonImage, alt: 'Python' },
-  { imageAddress: fastAPIImage, alt: 'Statistics Partitioner' },
-  { imageAddress: postgresqlImage, alt: 'Machine Learning' },
-  { imageAddress: prismaImage, alt: 'Fuzzy Logic' },
   { imageAddress: dynamoDBImage, alt: 'Minitab' },
+  { imageAddress: prismaImage, alt: 'Fuzzy Logic' },
+  
   // { imageAddress: typeormImage, alt: 'TypeORM' },
   // { imageAddress: awsImage, alt: 'AWS' },
   // { imageAddress: cSharpImage, alt: 'C-Sharp' },
