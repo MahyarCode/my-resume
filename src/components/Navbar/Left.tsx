@@ -10,7 +10,7 @@ const Left: React.FC = () => {
         >
           <div className='relative hidden md:block'>
             <h3 className='font-sora tracking-wide -ml-1 font-semibold text-lg group-hover:cursor-pointer text-primary  text-black group-hover:opacity-80'>
-              S.M. Mahyar Mousavinia
+              Seyed Mohammad Mahyar Mousavinia
             </h3>
             {/* <p className='absolute -top-4 -right-2 text-2xl group-hover:text-[#82ceee]'>
               .

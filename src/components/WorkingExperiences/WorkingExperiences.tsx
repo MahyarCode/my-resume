@@ -12,7 +12,7 @@ const WorkingExperiences: React.FC = () => {
     <>
       <SectionHeader
         key={'working-experiences-title'}
-        title='Working Experiences'
+        title='Experiences'
         iconLeft={<GiMountainRoad className='size-8 animate-pulse mt-1' />}
         iconRight={
           <GiMountainRoad className='size-8 animate-pulse mt-1 scale-x-[-1]' />

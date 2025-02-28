@@ -78,10 +78,11 @@ const Header: React.FC = () => {
                   <div className='flex flex-wrap justify-center'>
                     <div className='w-full lg:w-9/12 px-4'>
                       <p className='mb-4 text-lg leading-relaxed text-gray-800 text-justify'>
-                      I am a <b>data-driven individual</b> with a solid foundation in <b>statistics</b> and <b>fuzzy logic</b>, complemented by hands-on experience in <b>Python programming</b>. My proficiency extends to working with statistical software such as <b>SPSS</b> and <b>Minitab</b>, allowing me to perform detailed analyses across various fields. I am adept at applying these tools to solve complex problems and deliver actionable insights through data interpretation.
+                      I am deeply passionate about <b>Business Intelligence</b> and <b>Artificial Intelligence</b>. I continuously seek opportunities to enhance my skills in these areas, staying up-to-date with the latest advancements and <b>eager to gain more experience</b> in the fields. My motivation lies in integrating cutting-edge technologies to drive innovation and tackle real-world challenges.
                       </p>
                       <p className='mb-4 text-lg leading-relaxed text-gray-800 text-justify'>
-                      I am also deeply passionate about <b>Artificial Intelligence (AI)</b>, <b>Machine Learning</b>, and <b>Deep Learning</b>. I continuously seek opportunities to enhance my skills in these areas, staying up-to-date with the latest advancements and <b>eager to gain more experience</b> in the field. My motivation lies in integrating cutting-edge technologies to drive innovation and tackle real-world challenges.
+                      My academic background in Industrial Management enables me to identify key indicators and define variables with precision, leading to more accurate decision-making. 
+                      As a data analyst with hands-on project experience, I am passionate about transforming raw data into meaningful reports and actionable insights. Additionally, my expertise in data science allows me to perform advanced analytics on large datasets, driving data-driven solutions. 
                       </p>
                     </div>
                   </div>
