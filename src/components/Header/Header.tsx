@@ -1,14 +1,14 @@
 import React from 'react';
 // TODO: image haro inja add kon az file asset /src/asset/images
-import headerBg from '@images/backpage.jpg';
-import imgMRM from '@images/MahyarM.jpg';
+import headerBg from '@images/Background.png';
+import imgMRM from '@images/Profile_Picture.jpg';
 
 import { FaUniversity, FaMapMarked } from 'react-icons/fa';
 const Header: React.FC = () => {
   return (
     <>
       <div className='profile-page'>
-        <section className='relative block' style={{ height: '500px' }}>
+        <section className='relative block' style={{ height: '600px' }}>
           <div
             className='absolute top-0 w-full h-full bg-center bg-cover'
             style={{
