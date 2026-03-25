@@ -1,13 +1,43 @@
 <!doctype html>
 <html lang="en">
 	<head>
+		<script>
+			(function (w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s),
+					dl = l != "dataLayer" ? "&l=" + l : "";
+				j.async = true;
+				j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, "script", "dataLayer", "GTM-TXBSTV3C");
+		</script>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="/src/index.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Mahyar MousaviNia</title>
 		<link rel="icon" type="image/x-icon" href="/images/webPicture.png" />
+		<meta
+			name="description"
+			content="With experience across both front-end and back-end technologies, I turn ideas into functional digital solutions. I enjoy solving complex problems, learning new tools, and creating smooth user experiences."
+		/>
+		<meta property="og:image" content="https://mahyarcode.github.io/images/webPicture.png" />
+		<meta property="og:title" content="Mahyar MousaviNia | Full-Stack Developer" />
+		<meta
+			property="og:description"
+			content="Data analyst portfolio - transforming raw data into actionable insights"
+		/>
 	</head>
 	<body>
+		<noscript
+			><iframe
+				src="https://www.googletagmanager.com/ns.html?id=GTM-TXBSTV3C"
+				height="0"
+				width="0"
+				style="display: none; visibility: hidden"
+			></iframe
+		></noscript>
 		<div id="root"></div>
 		<script type="module" src="/src/main.tsx"></script>
 	</body>
