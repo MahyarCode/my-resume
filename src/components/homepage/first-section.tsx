@@ -16,7 +16,7 @@ const Introduction: React.FC = () => {
 				</div>
 				<div className="grid justify-items-center">
 					<img
-						src="/my-resume/images/mahyar.png"
+						src="/images/mahyar.png"
 						className="image-container p-5 mt-4 md:mt-0 md:w-100 h-auto rounded-[6vw]  
 						"
 					/>

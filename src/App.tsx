@@ -13,7 +13,7 @@ const router = createBrowserRouter(
 		},
 	],
 	{
-		basename: "/my-resume",
+		basename: "/",
 	},
 );
 
