@@ -1,0 +1,16 @@
+.introduction {
+	background: radial-gradient(circle, #dc00d3, #66ffff, #12b4b4);
+	background-image: linear-gradient(to right, #2b0b3a, #ae0ca7, #4bb6b6);
+}
+
+.homepage {
+	background: #2b0b3a;
+}
+
+.fade {
+	height: 60px;
+
+	background:
+		linear-gradient(to bottom, transparent, #2b0b3a),
+		linear-gradient(to right, #2b0b3a, #ae0ca7, #4bb6b6);
+}

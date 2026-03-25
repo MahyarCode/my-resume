@@ -1,0 +1,38 @@
+.image-container {
+	object-fit: cover;
+
+	mask-image:
+		linear-gradient(to bottom, black 70%, transparent 100%),
+		linear-gradient(to left, black 70%, transparent 100%),
+		linear-gradient(to right, black 70%, transparent 100%);
+	mask-composite: intersect;
+	-webkit-mask-image:
+		linear-gradient(to bottom, black 70%, transparent 100%),
+		linear-gradient(to left, black 70%, transparent 100%),
+		linear-gradient(to right, black 70%, transparent 100%);
+	-webkit-mask-composite: source-over;
+}
+
+.text-style-header {
+	background-image: linear-gradient(to right, #a53ff4, #9dddff, #fff);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-style-role {
+	background-image: linear-gradient(to right, #68ffff, #ea00de);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-style-activity {
+	background-image: linear-gradient(to right, #f15252, #ff5bf7);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+}
