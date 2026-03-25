@@ -14,21 +14,30 @@ const Header: React.FC = () => {
 							<div>
 								<button className="hover:hover:cursor-pointer">
 									<a href="https://github.com/MahyarCode">
-										<img src="/svg/githubIcon.svg" className="w-10 h-10" />
+										<img
+											src="/my-resume/svg/githubIcon.svg"
+											className="w-10 h-10"
+										/>
 									</a>
 								</button>
 							</div>
 							<div className="">
 								<button className="hover:hover:cursor-pointer">
 									<a href="https://www.linkedin.com/in/mahyar-mousavinia">
-										<img src="/images/linkedin.png" className="w-10 h-10" />
+										<img
+											src="/my-resume/images/linkedin.png"
+											className="w-10 h-10"
+										/>
 									</a>
 								</button>
 							</div>
 							<div className="">
 								<button className="hover:hover:cursor-pointer">
 									<a href="mailto:mahyar.mousavi.1408@gmail.com">
-										<img src="/images/gmail.png" className="w-10 h-10" />
+										<img
+											src="/my-resume/images/gmail.png"
+											className="w-10 h-10"
+										/>
 									</a>
 								</button>
 							</div>

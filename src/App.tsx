@@ -5,12 +5,17 @@ import HomePage from "./pages/HomePage";
 
 const queryClient = new QueryClient();
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+	[
+		{
+			path: "/",
+			element: <HomePage />,
+		},
+	],
 	{
-		path: "/",
-		element: <HomePage />,
+		basename: "/my-resume",
 	},
-]);
+);
 
 function App() {
 	return (
