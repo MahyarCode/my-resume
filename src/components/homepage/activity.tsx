@@ -5,8 +5,9 @@ const Activity: React.FC<{
   role: string;
   type: string;
   imgSource: string;
+  datePeriod: string;
   description: string | string[];
-}> = ({ name, role, type, imgSource, description }) => {
+}> = ({ name, role, type, imgSource, datePeriod, description }) => {
   return (
     <>
       <div className="md:grid md:grid-cols-6 place-items-center gap-4 mb-12">
@@ -22,7 +23,7 @@ const Activity: React.FC<{
           </h2>
           {type === "experience" ? (
             <p className="text-style-activity text-style-role text-xl">
-              September 2025 / April 2026
+              {datePeriod}
             </p>
           ) : (
             ""

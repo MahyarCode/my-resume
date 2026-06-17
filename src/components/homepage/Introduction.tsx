@@ -10,13 +10,14 @@ const Introduction: React.FC = () => {
             Hi, I'm Mahyar.
           </h1>
           <h2 className="text-style-role font-display text-3xl">
-            Full-Stack Developer.
+            Business Analyst & Data Analyst
           </h2>
           <p className="text-white font-display text-justify text-xl">
-            With experience across both front-end and back-end technologies, I
-            turn ideas into functional digital solutions. I enjoy solving
-            complex problems, learning new tools, and creating smooth user
-            experience.
+            I turn disorganised data into decisions an organisation can act on,
+            then build the tools that make those decisions repeatable and
+            transparent. An industrial-management graduate grounded in
+            operations research and statistics, with the software engineering to
+            carry an idea from raw data all the way to a working system.
           </p>
         </div>
         <div className="grid justify-items-center">

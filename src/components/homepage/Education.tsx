@@ -11,17 +11,15 @@ const Education: React.FC = () => {
         </h1>
         <Activity
           name="University of Tehran"
-          role="Industrial Management Student"
+          role="Bachelor's Degree, Industrial Management"
           type="education"
           imgSource="/images/uni.png"
-          description="Dedicated Industrial Management student concentrating on the intersection of Supply Chain Logistics and Strategic Management. Demonstrates academic proficiency in supply chain optimization, demand forecasting, strategic decision-making and strategic models for problem solving. Skilled in identifying inefficiencies within the value chain and implementing sustainable, competitive strategies. Combines quantitative problem-solving with strategic foresight to support operational excellence and business growth."
-        />
-        <Activity
-          name="University of Tehran"
-          role="Computer Science Student"
-          type="education"
-          imgSource="/images/uni.png"
-          description="Computer Science student dedicated to full-stack development, with a focus on building robust, scalable applications. Emphasizes clean architecture, performance optimization, and thoughtful user experience across the development lifecycle."
+          datePeriod="September 2020 - July 2024"
+          description="Bachelor of Industrial Management from the University of Tehran, graduated in 2024 with a 3.9/4.0 GPA, built on a quantitative core of statistics, operations research, and feasibility analysis.
+
+My coursework trained me to take a real management problem, frame it precisely, and turn it into a mathematical model that can be solved and tested against data, spanning optimization and linear programming, production and operations management, and statistical decision-making.
+
+The through-line was always the same: not analysis for its own sake, but turning evidence into decisions an organization can act on."
         />
       </div>
     </div>
