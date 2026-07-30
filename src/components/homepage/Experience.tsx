@@ -11,35 +11,14 @@ const Experience: React.FC = () => {
         <Activity
           name="Digital Nexus"
           type="experience"
-          role="Research And Development Specialist"
+          role="Software Development Intern"
           imgSource="/images/DigitalNexus.png"
-          datePeriod="September 2025 - April 2026"
           description={[
-            `Conducted feasibility analysis on multiple new venture ideas proposed by leadership, assessing market size, competitive
-              landscape, and adoption potential across domestic and international markets.`,
-            `Sourced demand and customer-growth assumptions from peer-reviewed literature and market data, and built three-
-              scenario financial models (best, base, and worst case), evaluating rate of return under each to test profitability.`,
-            `Presented findings that projected the ventures as unviable, informing leadership's decision not to proceed and avoiding
-              investment in unprofitable initiatives.`,
-          ]}
-        />
-        <Activity
-          name="University of Tehran"
-          type="experience"
-          role="Statistical Specialist"
-          imgSource="/images/uni.png"
-          datePeriod="October 2023 - May 2025"
-          description={[
-            `Cleaned and structured raw datasets in Python (for large datasets) or Excel (for small datasets), and produced descriptive-
-              statistics reports to detect data-quality issues (outliers, miscoded or missing values), additionally running randomness
-              checks to validate assumptions before analysis.`,
-            `Conducted within-group (Pre-Test to Post-Test) and between-group comparisons, selecting parametric or non-parametric
-              tests based on normality checks, and evaluating significance at the 95% confidence level (p < 0.05).`,
-            `Built an LSTM forecasting model for a time-series prediction task, testing several input-sequence window configurations
-              and selecting the highest-performing one based on RMSE, MAPE and R².`,
-            `Automated an end-to-end statistical analysis workflow in Python for similarly-structured datasets; performing the
-              appropriate tests, computing results, and generating complete MS Word reports that reduced turnaround from almost 50
-              hours to under 30 seconds with full accuracy on validated cases.`,
+            "Increased backend test coverage by 40% by writing unit and integration tests for Express.js API routes, reducing untested code paths and improving overall codebase reliability.",
+            "Increased frontend test coverage by 35% across the React application.",
+            "Designed and implemented a custom React Context API solution that eliminated redundant prop drilling across the component tree, reducing unnecessary component re-renders by 15% and improving rendering performance. ",
+            "Developed new user-facing features for the main application dashboard, contributing to an active production codebase with real end-user impact. ",
+            "Refactored an existing React codebase by decomposing monolithic components into reusable, single-responsibility modules, improving maintainability and reducing duplication across the frontend.",
           ]}
         />
       </div>
